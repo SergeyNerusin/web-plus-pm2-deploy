@@ -1,5 +1,9 @@
 const dotenv = require("dotenv");
+<<<<<<< HEAD
 dotenv.config({ path: ".env.deploy" });
+=======
+dotenv.config();
+>>>>>>> b744acc71098ccb03a38b31249743d31e1612b41
 
 const { DEPLOY_USER, DEPLOY_HOST, DEPLOY_REF, DEPLOY_REPOSITORY, DEPLOY_PATH } =
   process.env;
